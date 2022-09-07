@@ -1,0 +1,26 @@
+.question-card {
+  width: 70%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.question-card {
+  .question-list {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    background-color: aquamarine;
+  }
+  .question-item {
+    font-size: 24px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: palevioletred;
+    padding: 40px 150px 40px 150px;
+  }
+  .question-item:hover {
+    background-color: aqua;
+  }
+}
