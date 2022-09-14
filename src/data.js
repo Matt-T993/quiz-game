@@ -1,47 +1,38 @@
 export const questions = [
   {
-    question: "What is the capital of Australia?",
-    anwserOptions: [
-      { answer: "Melbourne", isCorrect: false },
-      { answer: "Canberra", isCorrect: true },
-      { answer: "Darwin", isCorrect: false },
-      { answer: "Perth", isCorrect: false },
-    ],
-  },
-  {
-    question: "Who is Kaido's son in One Piece",
-    anwserOptions: [
-      { answer: "Yamato", isCorrect: true },
-      { answer: "Uldi", isCorrect: false },
-      { answer: "Zoro", isCorrect: false },
-      { answer: "Momonotsuke", isCorrect: false },
-    ],
-  },
-  {
-    question: "What is the besting selling Nintendo console?",
+    questionText: "What is the capital of Australia?",
     answerOptions: [
-      { answer: "Switch", isCorrect: false },
-      { answer: "GameCube", isCorrect: false },
-      { answer: "SNES", isCorrect: false },
-      { answer: "Wii", isCorrect: true },
+      { answerText: "Melbourne", isCorrect: false },
+      { answerText: "Canberra", isCorrect: true },
+      { answerText: "Darwin", isCorrect: false },
+      { answerText: "Perth", isCorrect: false },
     ],
   },
   {
-    question: "Who is CEO of Tesla?",
-    anwserOptions: [
-      { answer: "Bill Gate", isCorrect: false },
-      { answer: "Monkey D Luffy", isCorrect: true },
-      { answer: "Elon Musk", isCorrect: false },
-      { answer: "Tony Stark", isCorrect: false },
+    questionText: "What is the besting selling Nintendo console?",
+    answerOptions: [
+      { answerText: "Switch", isCorrect: false },
+      { answerText: "GameCube", isCorrect: false },
+      { answerText: "SNES", isCorrect: false },
+      { answerText: "Wii", isCorrect: true },
     ],
   },
   {
-    question: "What is the capital of Australia?",
-    anwserOptions: [
-      { answer: "Melbourne", isCorrect: false },
-      { answer: "Canberra", isCorrect: true },
-      { answer: "Darwin", isCorrect: false },
-      { answer: "Perth", isCorrect: false },
+    questionText: "Who is Kaido's son in One piece",
+    answerOptions: [
+      { answerText: "Yamato", isCorrect: true },
+      { answerText: "Uldi", isCorrect: false },
+      { answerText: "Zoro", isCorrect: false },
+      { answerText: "Momonosuke", isCorrect: false },
+    ],
+  },
+  {
+    questionText: "How many Harry Potter books are there?",
+    answerOptions: [
+      { answerText: "1", isCorrect: false },
+      { answerText: "4", isCorrect: false },
+      { answerText: "6", isCorrect: false },
+      { answerText: "7", isCorrect: true },
     ],
   },
 ];
