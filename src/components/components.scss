@@ -33,12 +33,12 @@
 
 .question-list {
   display: grid;
-  grid-gap: 100px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
   padding: 20px;
 
   .question-item {
-    font-size: 24px;
+    font-size: 16x;
     border-style: solid;
     border-width: 2px;
     background-color: palevioletred;
